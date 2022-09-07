@@ -1,2 +1,2 @@
-# myStudyStyle
-Find your studyBTI
+# SBTI Test
+Find your StudyBTI 💡
