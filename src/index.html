@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>성격유형별 공부법 테스트</title>
+    <meta name="description" content="mbti에 기반한 나만의 공부법 추천!">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="성격유형별 공부법 테스트">
+    <meta property="og:description" content="mbti에 기반한 나만의 공부법 추천!">
+    <meta property="og:image" content="http://sbti-test.netlify.app/logo.png">
+    <meta property="og:url" content="http://sbti-test.netlify.app/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="container">
+
+    <article class="start">
+        <h4 class="main mt-5 text-center">✍ 나에게 찰떡인 공부법은? 🤔</h4>
+        <img class="study-img" src="logo.png" alt="study">
+        <button type="button" class="start-btn btn btn-dark mt-3" onclick="start();">
+            <h5>👉🏻👉🏼 알고싶다면 클릭! 👈🏽👈</h5>
+        </button>
+        <p class="caution-text mt-3 text-center">※ MBTI 성격유형검사를 토대로 분석합니다 :)</p>
+    </article>
+
+    <article class="question">
+        <div class="progress mt-5">
+            <div class="progress-bar" role="progressbar" style="width: (100/12*' + cur_qNum + '%)"></div>
+        </div>
+        <h3 id="title" class="text-center mt-5">문제</h3>
+        <input id="type" type="hidden" value="EI">
+
+        <button id="A" type="button" class="btn btn-light mt-5">A</button>
+        <button id="B" type="button" class="btn btn-light mt-5">B</button>
+    </article>
+
+    <article class="result">
+        <img id="img" class="rounded-circle mt-5" src="study.jpeg" alt="animal">
+        <h2 id="animal" class="text-center mt-5">결과 동물</h2>
+        <h3 id="explain" class="text-center mt-5">설명</h3>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <p class="share-text text-center mt-5">👇 재밌으셨다면? 널리 공유하기 😉</p>
+        <div class="addthis_inline_share_toolbox"></div>
+        <p class="restart-text text-center mt-5">👇 결과가 만족스럽지 않으셨나요? 😥</p>
+        <button type="button" class="restart-btn btn btn-dark">
+            <h5>👉🏻 테스트 다시하기 👈</h5>
+        </button>
+    </article>
+
+    <article class="kakao_ad mt-5">
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-49si7NdOzJDLAjxE" data-ad-width="320"
+            data-ad-height="100"></ins>
+    </article>
+    <a class="mt-5 banner"
+        href="https://www.codelion.net/catalog/Q291cnNlTm9kZTpqbW9r?utm_source=animal_test&utm_medium=web_lecture&utm_campaign=믐비동쥬">
+        <img class="banner-img" src="banner.png" alt="banner">
+    </a>
+
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+
+    <input type="hidden" id="EI" value="0">
+    <input type="hidden" id="SN" value="0">
+    <input type="hidden" id="TF" value="0">
+    <input type="hidden" id="JP" value="0">
+
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6035e4f90b349cec"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

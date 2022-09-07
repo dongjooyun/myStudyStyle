@@ -1,0 +1,115 @@
+h2,
+h3,
+h4,
+p {
+	font-family: "Pretendard";
+}
+
+#fontsninja-text-66 {
+	font-family: "Pretendard";
+}
+
+.main {
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
+h5 {
+	font-family: "Pretendard";
+	font-size: 1.4rem;
+	font-weight: 500;
+	z-index: 10001;
+}
+
+button {
+	font-family: "Pretendard";
+	opacity: 80%;
+}
+
+#A,
+#B {
+	font-size: 1.4rem;
+}
+
+.progress {
+	opacity: 60%;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+}
+
+.caution-text {
+	color: darkgrey;
+}
+
+.question {
+	display: none;
+}
+
+.result {
+	display: none;
+}
+
+#img {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.share {
+	margin: 0 auto;
+}
+
+.kakao_ad {
+	width: 320px;
+	margin: 0 auto;
+}
+
+.addthis_inline_share_toolbox {
+	margin: 0 auto;
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.banner-img {
+	width: 300px;
+}
+
+.study-img {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.start-btn {
+	width: 330px;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+	color: black;
+	background-color: gold;
+	border-color: goldenrod;
+	border-width: 3px;
+}
+
+.share-text,
+.restart-text {
+	font-family: "Pretendard";
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+.restart-btn {
+	width: 300px;
+	margin: 0 auto;
+	height: 50px;
+	color: black;
+	background-color: gold;
+	border-color: goldenrod;
+	border-width: 3px;
+}
